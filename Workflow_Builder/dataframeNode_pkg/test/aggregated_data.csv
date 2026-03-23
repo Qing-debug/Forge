@@ -1,0 +1,7 @@
+Participant_ID,Avatar_Condition,Scene_Name,Participant_Age,SAM_Arousal,SAM_Pleasure
+P1,Neutral,Park,25,5,6
+P1,Neutral,City,25,4,5
+P2,Gesture,Park,35,7,4
+P2,Gesture,City,35,6,5
+P3,Posture,Park,45,3,7
+P3,Posture,City,45,4,6

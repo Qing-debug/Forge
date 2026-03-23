@@ -1,0 +1,10 @@
+Participant_ID,Shown_Gray_Scale_Value,Median_Pupil_Dilation_Left,Median_Pupil_Dilation_Right
+P1,0,2.10,2.15
+P1,128,3.40,3.50
+P1,255,4.80,4.90
+P2,0,2.30,2.25
+P2,128,3.60,3.55
+P2,255,5.10,5.00
+P3,0,1.90,1.95
+P3,128,3.20,3.30
+P3,255,4.60,4.70

@@ -1,0 +1,43 @@
+Participant_ID,AvatarCondition,Shown_Scene,Study_Phase,AOI_TAG,Unity_Timestamp,pupil_dilation_left,pupil_dilation_right,Polar_HearRateBPM,Polar_RR_Interval,Shimmer_D36A_GSR_Skin_Conductance_uS,current_blinkDuration,foveal_corrected_dilation_left,foveal_corrected_dilation_right
+P1,Neutral,BlankScene,Blank,None,2026-01-01 10:00:00,3.1,3.2,72,833,5.0,0,3.0,3.1
+P1,Neutral,BlankScene,Blank,None,2026-01-01 10:00:30,3.2,3.3,74,811,5.1,120,3.1,3.2
+P1,Neutral,BlankScene,Blank,None,2026-01-01 10:00:50,3.0,3.1,73,822,5.2,0,2.9,3.0
+P1,Neutral,Park,Dog Stimuli,Dog,2026-01-01 10:01:00,4.5,4.6,80,750,6.0,150,4.4,4.5
+P1,Neutral,Park,Dog Stimuli,Dog,2026-01-01 10:01:30,4.8,4.9,82,732,6.3,200,4.7,4.8
+P1,Neutral,Park,Dog Stimuli,Mirror,2026-01-01 10:02:00,4.2,4.3,78,769,5.8,0,4.1,4.2
+P1,Neutral,Park,Dog Stimuli,Dog,2026-01-01 10:02:30,4.6,4.7,81,741,6.1,180,4.5,4.6
+P1,Neutral,Park,Dog Stimuli,None,2026-01-01 10:03:00,-1,-1,79,759,5.9,90,4.3,4.4
+P1,Neutral,BlankScene,Blank,None,2026-01-01 10:04:00,3.3,3.4,73,822,5.1,0,3.2,3.3
+P1,Neutral,BlankScene,Blank,None,2026-01-01 10:04:30,3.1,3.2,72,833,5.0,110,3.0,3.1
+P1,Neutral,City,Dog Stimuli,Dog,2026-01-01 10:05:00,3.8,3.9,76,789,5.5,160,3.7,3.8
+P1,Neutral,City,Dog Stimuli,Mirror,2026-01-01 10:05:30,3.6,3.7,75,800,5.4,0,3.5,3.6
+P1,Neutral,City,Dog Stimuli,Dog,2026-01-01 10:06:00,3.9,4.0,77,779,5.6,140,3.8,3.9
+P1,Neutral,City,Dog Stimuli,None,2026-01-01 10:06:30,-1,-1,74,811,5.3,0,3.6,3.7
+P2,Gesture,BlankScene,Blank,None,2026-01-01 10:00:00,3.5,3.4,78,769,7.8,0,3.4,3.3
+P2,Gesture,BlankScene,Blank,None,2026-01-01 10:00:30,3.6,3.5,80,750,8.0,130,3.5,3.4
+P2,Gesture,BlankScene,Blank,None,2026-01-01 10:00:50,3.4,3.3,79,759,7.9,0,3.3,3.2
+P2,Gesture,Park,Dog Stimuli,Dog,2026-01-01 10:01:00,5.0,4.9,88,682,9.0,170,4.9,4.8
+P2,Gesture,Park,Dog Stimuli,Dog,2026-01-01 10:01:30,5.3,5.2,90,667,9.4,210,5.2,5.1
+P2,Gesture,Park,Dog Stimuli,Mirror,2026-01-01 10:02:00,4.7,4.6,86,698,8.7,0,4.6,4.5
+P2,Gesture,Park,Dog Stimuli,Dog,2026-01-01 10:02:30,5.1,5.0,89,674,9.2,190,5.0,4.9
+P2,Gesture,Park,Dog Stimuli,None,2026-01-01 10:03:00,-1,-1,87,690,8.9,100,4.8,4.7
+P2,Gesture,BlankScene,Blank,None,2026-01-01 10:04:00,3.7,3.6,79,759,8.1,0,3.6,3.5
+P2,Gesture,BlankScene,Blank,None,2026-01-01 10:04:30,3.5,3.4,78,769,7.9,120,3.4,3.3
+P2,Gesture,City,Dog Stimuli,Dog,2026-01-01 10:05:00,4.2,4.1,83,723,8.3,150,4.1,4.0
+P2,Gesture,City,Dog Stimuli,Mirror,2026-01-01 10:05:30,4.0,3.9,82,732,8.2,0,3.9,3.8
+P2,Gesture,City,Dog Stimuli,Dog,2026-01-01 10:06:00,4.3,4.2,84,714,8.5,160,4.2,4.1
+P2,Gesture,City,Dog Stimuli,None,2026-01-01 10:06:30,-1,-1,81,741,8.1,0,4.0,3.9
+P3,Posture,BlankScene,Blank,None,2026-01-01 10:00:00,2.8,2.9,65,923,3.5,0,2.7,2.8
+P3,Posture,BlankScene,Blank,None,2026-01-01 10:00:30,2.9,3.0,66,909,3.6,100,2.8,2.9
+P3,Posture,BlankScene,Blank,None,2026-01-01 10:00:50,2.7,2.8,65,923,3.4,0,2.6,2.7
+P3,Posture,Park,Dog Stimuli,Dog,2026-01-01 10:01:00,4.0,4.1,72,833,4.5,140,3.9,4.0
+P3,Posture,Park,Dog Stimuli,Dog,2026-01-01 10:01:30,4.3,4.4,74,811,4.8,180,4.2,4.3
+P3,Posture,Park,Dog Stimuli,Mirror,2026-01-01 10:02:00,3.7,3.8,70,857,4.2,0,3.6,3.7
+P3,Posture,Park,Dog Stimuli,Dog,2026-01-01 10:02:30,4.1,4.2,73,822,4.6,160,4.0,4.1
+P3,Posture,Park,Dog Stimuli,None,2026-01-01 10:03:00,-1,-1,71,845,4.4,80,3.8,3.9
+P3,Posture,BlankScene,Blank,None,2026-01-01 10:04:00,3.0,3.1,66,909,3.7,0,2.9,3.0
+P3,Posture,BlankScene,Blank,None,2026-01-01 10:04:30,2.8,2.9,65,923,3.5,110,2.7,2.8
+P3,Posture,City,Dog Stimuli,Dog,2026-01-01 10:05:00,3.4,3.5,68,882,4.0,130,3.3,3.4
+P3,Posture,City,Dog Stimuli,Mirror,2026-01-01 10:05:30,3.2,3.3,67,896,3.9,0,3.1,3.2
+P3,Posture,City,Dog Stimuli,Dog,2026-01-01 10:06:00,3.5,3.6,69,870,4.1,150,3.4,3.5
+P3,Posture,City,Dog Stimuli,None,2026-01-01 10:06:30,-1,-1,66,909,3.8,0,3.2,3.3

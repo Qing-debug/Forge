@@ -1,0 +1,11 @@
+
+Overall TODO (not so important but should be done eventually):
+1. Test Merge and Concat functions. Just copy the merge and concat operations done in dan's code, and verify that the
+output of your code matches his.
+2. Rewrite the entire replace value functionality to match the flow of the other dataframe  operations. In short, the
+operation should create a new df with the modifications, then it allows the user to select whether to save as now,
+overwrite existing df entry or discard. Look at merge or concat to get an idea of this flow.
+
+
+TODO (in order of priority):
+1. rewrite merge to use the overwrite, save as new, discard flow.
