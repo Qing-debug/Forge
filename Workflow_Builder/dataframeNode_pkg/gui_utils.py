@@ -162,6 +162,7 @@ NODE_CONFIG_FIELDS = {
     nodes.CalibRelativeThresholdNode: (
         'groupby_column', 'age_column', 'rr_interval_column', 'max_iterations',
     ),
+    nodes.ExportCSVNode: ('file_path',),
     nodes.PrintNode: (),
     nodes.PhysStatsAggNode: (
         'aggregation_name', 'groupby_key_mappings', 'extra_filters',

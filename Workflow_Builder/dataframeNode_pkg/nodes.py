@@ -105,6 +105,7 @@ from .dataframe_nodes import (
     ConcatNode,
     LoadCSVNode,
     LoadMultiCSVNode,
+    ExportCSVNode,
     PrintNode,
 )
 
@@ -137,6 +138,7 @@ export_nodes([
     ConcatNode,
     LoadCSVNode,
     LoadMultiCSVNode,
+    ExportCSVNode,
     # PrintNode,  # Removed from UI - use the Preview button and Output section to inspect data
     CalibPupilDilationNode,
     CalibGroupbyStatsNode,

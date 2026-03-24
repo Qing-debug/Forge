@@ -424,6 +424,36 @@ class LoadMultiCSVNode(DataFrameNodeBase):
         self.set_output_val(0, myDataFrame(df))
 
 
+class ExportCSVNode(DataFrameNodeBase):
+    """Sink node that exports the input dataframe to a CSV file.
+
+    One input port, no outputs. The user configures the save path via a
+    file-save dialog; at runtime the node writes the dataframe with
+    df.to_csv(path, index=False).
+    """
+
+    title = 'Export CSV'
+    init_inputs = [NodeInputType()]
+    init_outputs = []
+
+    def __init__(self, params):
+        super().__init__(params)
+        self.file_path: str | None = None
+
+    def get_state(self) -> dict:
+        return {'file_path': self.file_path}
+
+    def set_state(self, data: dict, version):
+        self.file_path = data.get('file_path')
+
+    def isConfigured(self) -> bool:
+        return bool(self.file_path)
+
+    def _doUpdate(self):
+        df = self.input(0).payload
+        df.to_csv(self.file_path, index=False)
+
+
 class PrintNode(DataFrameNodeBase):
     """Sink node that prints the input dataframe to the console.
 

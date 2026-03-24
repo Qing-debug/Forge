@@ -8,5 +8,6 @@ from .nodes import (
     ConcatNode,
     LoadCSVNode,
     LoadMultiCSVNode,
+    ExportCSVNode,
     PrintNode,
 )

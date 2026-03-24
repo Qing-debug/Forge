@@ -14,6 +14,7 @@ from .dataframe_nodes.gui_dialogs import (
     ConcatDialog,
     LoadCSVDialog,
     LoadMultiCSVDialog,
+    ExportCSVDialog,
 )
 from .calibration_nodes.gui_dialogs import (
     CalibPupilDilationDialog,
@@ -113,6 +114,15 @@ class LoadMultiCSVWidget(ConfigButtonWidget):
 class LoadMultiCSVGUI(NodeGUI):
     color = '#2c3e50'
     main_widget_class = LoadMultiCSVWidget
+
+
+class ExportCSVWidget(ConfigButtonWidget):
+    dialog_class = ExportCSVDialog
+
+@node_gui(nodes.ExportCSVNode)
+class ExportCSVGUI(NodeGUI):
+    color = '#7d3c98'
+    main_widget_class = ExportCSVWidget
 
 
 class CalibPupilDilationWidget(ConfigButtonWidget):

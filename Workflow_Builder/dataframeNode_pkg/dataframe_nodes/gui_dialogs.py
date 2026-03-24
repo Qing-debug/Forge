@@ -756,3 +756,36 @@ class LoadMultiCSVDialog(BaseConfigDialog):
         self.accept()
 
 
+class ExportCSVDialog(BaseConfigDialog):
+    dialog_title = 'Export CSV Configuration'
+
+    def _setupUi(self):
+        path_layout = QHBoxLayout()
+        path_layout.addWidget(QLabel('File Path:'))
+        self.file_path_input = QLineEdit()
+        if self.node.file_path:
+            self.file_path_input.setText(self.node.file_path)
+        path_layout.addWidget(self.file_path_input)
+        browse_btn = QPushButton('Browse')
+        browse_btn.clicked.connect(self._browseFile)
+        path_layout.addWidget(browse_btn)
+        self._layout.addLayout(path_layout)
+
+    def _browseFile(self):
+        file_path, _ = QFileDialog.getSaveFileName(
+            self, 'Save CSV File', '', 'CSV Files (*.csv)'
+        )
+        if file_path:
+            self.file_path_input.setText(file_path)
+
+    def _onSave(self):
+        file_path = self.file_path_input.text().strip()
+        if not file_path:
+            self.status_label.setText('Error: File path is required')
+            return
+
+        if not file_path.lower().endswith('.csv'):
+            file_path += '.csv'
+
+        self.node.file_path = file_path
+        self.accept()
