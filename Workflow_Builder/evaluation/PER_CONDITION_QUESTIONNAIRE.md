@@ -1,7 +1,11 @@
-# Evaluation Questionnaires
+# Per-condition Questionnaire
 
-Complete **Section A and B** after each condition (Python / Workflow Builder).
-Complete **Section C** once, after finishing both conditions.
+Complete this questionnaire **after each condition** (Python / Workflow Builder). Each participant fills it in twice in total — once after the Python condition and once after the Workflow Builder condition.
+
+It combines two standard usability instruments:
+
+- **Section A — System Usability Scale (SUS).** A ten-item Likert questionnaire that yields a single 0–100 usability score per condition.
+- **Section B — NASA Task Load Index (raw TLX).** Six 1–21 scales covering perceived workload across mental, physical, temporal, performance, effort, and frustration dimensions.
 
 ---
 
@@ -79,56 +83,6 @@ Very Low  1---2---3---4---5---6---7---8---9---10---11---12---13---14---15---16--
 Very Low  1---2---3---4---5---6---7---8---9---10---11---12---13---14---15---16---17---18---19---20---21  Very High
 ```
 
-
----
-
-## Section C: Direct Comparison
-
-*Complete this section after finishing both conditions.*
-
-### 1. Which approach would you prefer for building this type of pipeline in your own work?
-
-☐ Workflow Builder &nbsp;&nbsp; ☐ Python &nbsp;&nbsp; ☐ No preference
-
-### 2. Which approach would you recommend to a colleague with less coding experience?
-
-☐ Workflow Builder &nbsp;&nbsp; ☐ Python &nbsp;&nbsp; ☐ No preference
-
-### 3. Which approach gave you more confidence that the output was correct?
-
-☐ Workflow Builder &nbsp;&nbsp; ☐ Python &nbsp;&nbsp; ☐ No difference
-
-### 4. Which approach would be easier to modify if the pipeline requirements changed?
-
-☐ Workflow Builder &nbsp;&nbsp; ☐ Python &nbsp;&nbsp; ☐ No difference
-
-### 5. Describe the main advantages and disadvantages you experienced with each approach.
-
-**Advantages of Python:**
-
-&nbsp;
-
-&nbsp;
-
-**Disadvantages of Python:**
-
-&nbsp;
-
-&nbsp;
-
-**Advantages of Workflow Builder:**
-
-&nbsp;
-
-&nbsp;
-
-**Disadvantages of Workflow Builder :**
-
-&nbsp;
-
-&nbsp;
-
-**Final thoughts and improvement's you'd like to see in the Workflow Builder:**
 
 ---
 
